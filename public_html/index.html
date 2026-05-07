@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- Платонов Сергей 25ВП3, Вариант №10, 4 лаб  -->
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Учебный тест</title>
+        <link rel="stylesheet" href="css/css.css" type="text/css"/>
+        <link rel="icon" href="#">
+        <script src="JS/javascript.js" defer></script>
+    </head>
+    <body>
+
+        <div class="info-block">
+                <strong>ФИО, вариант, группа:</strong> Платонов Сергей
+                Вадимович,
+                №10, 25ВП3
+            </div>
+
+            <div class="info-block">
+                <strong>Задание:</strong> Предмет «Природоведение». 
+                Тестирование по теме «Комфортные экологические условия 
+                жизнедеятельности человека».
+            </div>
+
+        <div class="container">
+            <h1>Тестирование по теме «Комфортные экологические условия 
+                жизнедеятельности человека».</h1>
+            <div id="timer-block">
+                До завершения теста: <span id="timer">05:00</span>
+            </div>
+            <form id="quiz-form">
+
+                <div class="question-block">
+                    <p class="question-text">1. Что лучше пить, чтобы не
+                        болеть?</p>
+                    <label>
+                        <input type="radio" name="q1" value="Чистую воду">
+                        Чистую воду</label>
+                    <label>
+                        <input type="radio" name="q1" 
+                                  value="Грязную воду из лужи">
+                        Грязную воду из лужи</label>
+                    <label>
+                        <input type="radio" name="q1" value="Мыльную пену"> 
+                        Мыльную пену</label>
+                    <label>
+                        <input type="radio" name="q1" value="Камни"> 
+                        Камни</label>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">2. Где приятно гулять?</p>
+                    <label>
+                        <input type="radio" name="q2" value="На мусорной 
+                               свалке">
+                        На мусорной свалке</label>
+                    <label>
+                        <input type="radio" name="q2" value="В грязной яме"> 
+                        В грязной яме</label>
+                    <label>
+                        <input type="radio" name="q2" value="В чистом лесу"> 
+                        В чистом лесу</label>
+                    <label>
+                        <input type="radio" name="q2" value="а горячей плите">
+                        в горячей плите</label>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">3. Что не вредит ушам и слуху? (
+                        можно несколько):</p>
+                    <label>
+                        <input type="checkbox" name="q3" 
+                                  value="Громкий крик прямо в ухо"> 
+                        Громкий крик прямо в ухо</label>
+                    <label>
+                        <input type="checkbox" name="q3" value="Пение птиц"> 
+                        Пение птиц</label>
+                    <label>
+                        <input type="checkbox" name="q3" 
+                                  value="Работа отбойного молотка рядом"> 
+                        Работа отбойного молотка рядом</label>
+                    <label>
+                        <input type="checkbox" name="q3" value="Тихий разговор"> 
+                        Тихий разговор</label>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">4. 
+                        Что нужно делать, чтобы воздух в комнате был 
+                        свежим и чистым? (можно несколько):</p>
+                    <label>
+                        <input type="checkbox" name="q4" value="Открыть окно">
+                        Открыть окно</label>
+                    <label>
+                        <input type="checkbox" name="q4" 
+                                  value="Вытереть пыль (сделать уборку)"> 
+                        Вытереть пыль (сделать уборку)</label>
+                    <label>
+                        <input type="checkbox" name="q4" 
+                                  value="Закрыть все окна и двери наглухо"> 
+                        Закрыть все окна и двери наглухо</label>
+                    <label>
+                        <input type="checkbox" name="q4" 
+                                  value="Рассыпать мусор по полу"> 
+                        Рассыпать мусор по полу</label>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">5. Чем дышит человек?</p>
+                    <select name="q5">
+                        <option value="">-- Выберите ответ --</option>
+                        <option value="Водой">Водой</option>
+                        <option value="Воздухом">Воздухом</option>
+                        <option value="Землёй">Землёй</option>
+                        <option value="Песком">Песком</option>
+                    </select>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">6. Какой водой мыть руки?</p>
+                    <select name="q6">
+                        <option value="">-- Выберите ответ --</option>
+                        <option value="Грязной">Грязной</option>
+                        <option value="Холодной из лужи">Холодной из 
+                            лужи</option>
+                        <option value="Чистой тёплой водой с мылом">
+                            Чистой тёплой водой с мылом</option>
+                        <option value="Сладкой">Сладкой</option>
+                    </select>
+                </div>
+
+                <div class="question-block">
+                    <p class="question-text">7. Каждому человеку нужен 
+                        чистый …</p>
+                    <input type="text" name="q7" placeholder=
+                           "Введите продлолжение фразы...">
+                </div>
+
+                <!-- Вопрос 8 — текстовое поле -->
+                <div class="question-block">
+                    <p class="question-text">8. 
+                        колько раз в день надо чистить зубы?</p>
+                    <input type="text" name="q8" placeholder="Введите число...">
+                </div>
+
+                <button type="button" id="submit-btn">Завершить тест</button>
+            </form>
+
+            <div id="results-block" style="display: none;">
+                <h2>Результаты теста</h2>
+                <div id="score-summary"></div>
+                <table id="results-table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Вопрос</th>
+                            <th>Ваш ответ</th>
+                            <th>Правильный ответ</th>
+                            <th>Баллы</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results-body">
+                    </tbody>
+                </table>
+                <button type="button" id="restart-btn">Пройти тест
+                    заново</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
